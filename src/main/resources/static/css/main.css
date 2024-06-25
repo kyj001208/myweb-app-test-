@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body > main > section{
+	
+	position:absolute;
+	height: 1192px;
+	width:1389px;
+	margin-left: 300px;
+	
+}

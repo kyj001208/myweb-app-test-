@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+ /* 상단 */
+#title{
+	border-bottom: #222 solid 1px;
+	
+}
+#title > a{
+	
+	display:inline-block;
+	text-decoration: none;
+	font-style: #222;
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+/* 왼쪽 내부바 */
+#left-title{
+	
+	position: absolute;
+	width: 300px;
+	height: 100%;
+	border-right: #222 solid 1px;
+}
+
+/* 왼쪽 내부바 상단 */
+#left-top{
+	height:270px;
+	border-bottom: #222 solid 1px;
+	
+}
+	
+/* 왼쪽 내부바 상단 이미지 가운데 */	
+#left-top .img {
+	
+	
+    display: block; /* span을 block 또는 inline-block으로 변경 */
+    width: 130px; /* 원하는 너비로 조정 */
+    height: 130px; /* 원하는 높이로 조정 */
+    background-image: url("/image/몽.jpeg");
+    background-size: cover; /* 배경 이미지를 커버 사이즈로 설정 */
+    background-repeat: no-repeat;
+    border-radius: 50%; /* 원형 모양으로 만들기 위해 반지름 설정 */
+    background-position: center;
+    margin: 0 auto ;
+    margin-top: 50px;
+    
+  	
+}
+
+/* 왼족 내부바 상단 이름 가운데 정렬 */
+#left-top > a{
+	
+	display:block;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 17px;
+}
+
+/* 왼쪽 내부바 상단  시간넣는 바 */
+#left-top > span{
+	display:block;
+	margin-top: 20px;
+	background-color: #0080ff;
+	border-radius: 50%;
+	text-align: center;
+	
+	
+}
+
+/* 왼쪽 내부바 센터 출퇴 */
+
+#left-title > section.left-center{
+	
+	height: 230px;
+	border-bottom: #222 solid 1px;
+	
+}
+
+#center{
+	margin-top:10px;
+	margin-left:20px;
+	margin-right:20px;
+	background-color: #0080ff;
+	display: flex;
+	justify-content: center;
+}
+
+#center > button{
+	margin:0 10px;
+	text-align: center;
+	
+	
+}
+
+
+
+#center-left > a:nth-child(2){}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
